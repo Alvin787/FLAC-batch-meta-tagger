@@ -85,7 +85,7 @@ tracklist.txt
 
 - Replace these with the actual metadata values you wish to set:
   
-“Artist Name”, “Album Name”, “Date”:
+“Artist Name”, “Album Name”, “Date”
 
 ## Notes:
 - **File Count Match:**
