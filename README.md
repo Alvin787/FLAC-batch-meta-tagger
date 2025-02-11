@@ -75,15 +75,15 @@ Example command:
 
 Parameters:
 ```
-/path/to/flac/files
+    /path/to/flac/files
 ```
 The directory containing your FLAC files.
 ```
-tracklist.txt
+    tracklist.txt
 ```
 The path to your track list file.
 ```
-“Artist Name”, “Album Name”, “Date”:
+    “Artist Name”, “Album Name”, “Date”:
 ```
 Replace these with the actual metadata values you wish to set.
 
