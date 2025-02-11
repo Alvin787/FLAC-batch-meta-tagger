@@ -37,7 +37,7 @@ Many albums available on [archive.org](https://archive.org/) are uploaded in FLA
 
 - Install dependencies
 ```
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 ```
 
 ## Usage
@@ -65,7 +65,7 @@ Example without Track Numbers:
 
 - **Run the Python script with the following command:**
 ```
-    python main.py /path/to/flac/files tracklist.txt "Artist Name" "Album Name" "Date"
+    python3 main.py /path/to/flac/files tracklist.txt "Artist Name" "Album Name" "Date"
 ```
 
 Parameters:
