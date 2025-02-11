@@ -27,12 +27,12 @@ Many albums available on [archive.org](https://archive.org/) are uploaded in FLA
 ## Installation
 - Clone the repository locally in the location of your choice
 ```
-   git clone https://github.com/yourusername/flac-meta-tagger.git
+    git clone https://github.com/yourusername/flac-meta-tagger.git
 ```
 
 - Navigate to the cloned repository location 
 ```
-   cd /your-folder-location/flac-meta-tagger
+    cd /your-folder-location/flac-meta-tagger
 ```
 
 - Install dependencies
@@ -70,18 +70,22 @@ Example without Track Numbers:
 
 Example command: 
 ```
-python3 main.py /Users/alvinqian/Music/jm2010-07-30 tracklist.txt "John Mayer" "Live at Susquehanna Bank Center on 2010-07-30" "2010-07-30"
+    python3 main.py /Users/alvinqian/Music/jm2010-07-30 tracklist.txt "John Mayer" "Live at Susquehanna Bank Center     on 2010-07-30" "2010-07-30"
 ```
 
 Parameters:
 ```
-        •	/path/to/flac/files:
-    The directory containing your FLAC files.
-        •	tracklist.txt:
-    The path to your track list file.
-        •	“Artist Name”, “Album Name”, “Date”:
-    Replace these with the actual metadata values you wish to set.
+    /path/to/flac/files
 ```
+The directory containing your FLAC files.
+```
+tracklist.txt
+```
+The path to your track list file.
+```
+“Artist Name”, “Album Name”, “Date”:
+```
+Replace these with the actual metadata values you wish to set.
 
 ## Notes:
 - **File Count Match:**
