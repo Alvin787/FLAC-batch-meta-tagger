@@ -70,22 +70,19 @@ Example without Track Numbers:
 
 Example command: 
 ```
-    python3 main.py /Users/alvinqian/Music/jm2010-07-30 tracklist.txt "John Mayer" "Live at Susquehanna Bank Center     on 2010-07-30" "2010-07-30"
+    python3 main.py /Users/alvinqian/Music/jm2010-07-30 tracklist.txt "John Mayer" "Live at Susquehanna Bank Center on 2010-07-30" "2010-07-30"
 ```
 
 Parameters:
-```
-    /path/to/flac/files
-```
-The directory containing your FLAC files.
-```
-    tracklist.txt
-```
-The path to your track list file.
-```
+
+- The directory containing your FLAC files.
+/path/to/flac/files
+
+- The path to your track list file.
+tracklist.txt
+
+- Replace these with the actual metadata values you wish to set.
     “Artist Name”, “Album Name”, “Date”:
-```
-Replace these with the actual metadata values you wish to set.
 
 ## Notes:
 - **File Count Match:**
