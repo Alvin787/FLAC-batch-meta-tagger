@@ -63,7 +63,7 @@ Example without Track Numbers:
     ...
 ```
 
-- **Run the Python script with the following command:**
+## Run the Python script with the following command:
 ```
     python3 main.py /path/to/flac/files tracklist.txt "Artist Name" "Album Name" "Date"
 ```
