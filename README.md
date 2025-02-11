@@ -75,7 +75,7 @@ Example command:
 
 Parameters:
 
-- The folder location containing your FLAC files:
+- The folder location containing the FLAC files:
   
 /path/to/flac/files
 
