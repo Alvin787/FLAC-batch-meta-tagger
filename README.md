@@ -68,6 +68,11 @@ Example without Track Numbers:
     python3 main.py /path/to/flac/files tracklist.txt "Artist Name" "Album Name" "Date"
 ```
 
+Example command: 
+```
+python3 main.py /Users/alvinqian/Music/jm2010-07-30 tracklist.txt "John Mayer" "Live at Susquehanna Bank Center on 2010-07-30" "2010-07-30"
+```
+
 Parameters:
 ```
         •	/path/to/flac/files:
