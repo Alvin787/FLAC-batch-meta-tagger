@@ -4,6 +4,19 @@
 
 This repository contains a Python script that updates FLAC file metadata and renames files based on an input track list. The script performs two primary tasks:
 
+## Use Case
+
+Many albums available on [archive.org](https://archive.org/) are uploaded in FLAC format but lack proper organization. The FLAC files may have confusing file names and missing metadata, making it difficult to use them directly on popular music players such as Apple Music, Foobar2000, MusicBee, etc. This tool is designed to help you:
+
+- **Organize Downloaded Albums:**  
+  Automatically update metadata and rename files so that each track is correctly labeled.
+
+- **Enhance Local Listening Experience:**  
+  Once processed, your music players will recognize the files as a cohesive album with the proper track order and metadata.
+
+- **Simplify Post-Download Cleanup:**  
+  Instead of manually renaming files and updating metadata, simply provide a track list and desired metadata, and let the script do the rest.
+
 ## Features
 - **Update Metadata:**  
   Sets the Artist, Album, and Date tags for each FLAC file using the [Mutagen](https://mutagen.readthedocs.io/) library.
