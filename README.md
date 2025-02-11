@@ -1,4 +1,4 @@
-# FLAC Metadata Batch Updater (Python Version)
+# FLAC Metadata Batch tagger
 
 ## Overview
 
